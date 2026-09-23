@@ -1,19 +1,71 @@
-# React + Vite
+# Product Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based product management application that demonstrates full CRUD functionality, form handling, validation, and state management.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Add new products
+* Edit and update existing products
+* Delete products
+* Controlled form inputs
+* Form validation
+* Dynamic product list updates
+* Product categories and pricing
+* Responsive user interface
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+* React
+* JavaScript (ES6+)
+* HTML5
+* CSS3
+* Vite
 
-Note: This will impact Vite dev & build performances.
-You can also try [the experimental native React Compiler support in plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md#rust-react-compiler) by using `compiler: true` in the plugin options instead of using the Babel plugin.
+## React Concepts Demonstrated
 
-## Expanding the ESLint configuration
+* `useState`
+* Controlled components
+* Event handling
+* Conditional rendering
+* `map()`
+* `filter()`
+* `find()`
+* Object spread syntax
+* State management
+* Form validation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## CRUD Operations
+
+| Operation | Implementation                    |
+| --------- | --------------------------------- |
+| Create    | Add new products through the form |
+| Read      | Display products dynamically      |
+| Update    | Edit and update existing products |
+| Delete    | Remove products from the list     |
+
+## Getting Started
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Run the development server
+
+```bash
+npm run dev
+```
+
+Then open the local URL provided by Vite in your browser.
+
+## Project Purpose
+
+This project was built as part of my front-end software development training to practice React fundamentals and combine multiple concepts into a functional application.
+
+## Author
+
+**Krishna Shrestha**
+
+* GitHub: https://github.com/sirk2040
+* LinkedIn: https://linkedin.com/in/krishna-shrestha
