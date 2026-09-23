@@ -31,7 +31,7 @@ A React-based product management application that demonstrates full CRUD functio
 * `filter()`
 * `find()`
 * Object spread syntax
-* State management
+* State  management
 * Form validation
 
 ## CRUD Operations
